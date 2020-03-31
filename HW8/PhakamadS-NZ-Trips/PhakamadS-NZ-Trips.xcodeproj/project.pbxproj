@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5615FA3324154ECE0096C003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA3224154ECE0096C003 /* AppDelegate.swift */; };
+		5615FA3524154ECE0096C003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA3424154ECE0096C003 /* SceneDelegate.swift */; };
+		5615FA3724154ECE0096C003 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA3624154ECE0096C003 /* InfoViewController.swift */; };
+		5615FA3A24154ECE0096C003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5615FA3824154ECE0096C003 /* Main.storyboard */; };
+		5615FA3C24154ED00096C003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5615FA3B24154ED00096C003 /* Assets.xcassets */; };
+		5615FA3F24154ED00096C003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5615FA3D24154ED00096C003 /* LaunchScreen.storyboard */; };
+		5615FA4A24154ED00096C003 /* PhakamadS_NZ_TripsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA4924154ED00096C003 /* PhakamadS_NZ_TripsTests.swift */; };
+		5615FA5524154ED00096C003 /* PhakamadS_NZ_TripsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA5424154ED00096C003 /* PhakamadS_NZ_TripsUITests.swift */; };
+		5615FA6924156BD90096C003 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA6824156BD90096C003 /* Attraction.swift */; };
+		5615FA6B24156D330096C003 /* AttractionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA6A24156D330096C003 /* AttractionsTableViewController.swift */; };
+		5615FA6D2415CFA80096C003 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615FA6C2415CFA80096C003 /* ImagesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5615FA4624154ED00096C003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5615FA2724154ECE0096C003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5615FA2E24154ECE0096C003;
+			remoteInfo = "PhakamadS-NZ-Trips";
+		};
+		5615FA5124154ED00096C003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5615FA2724154ECE0096C003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5615FA2E24154ECE0096C003;
+			remoteInfo = "PhakamadS-NZ-Trips";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5615FA2F24154ECE0096C003 /* PhakamadS-NZ-Trips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhakamadS-NZ-Trips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5615FA3224154ECE0096C003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5615FA3424154ECE0096C003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5615FA3624154ECE0096C003 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5615FA3924154ECE0096C003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5615FA3B24154ED00096C003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5615FA3E24154ED00096C003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5615FA4024154ED00096C003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5615FA4524154ED00096C003 /* PhakamadS-NZ-TripsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhakamadS-NZ-TripsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5615FA4924154ED00096C003 /* PhakamadS_NZ_TripsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhakamadS_NZ_TripsTests.swift; sourceTree = "<group>"; };
+		5615FA4B24154ED00096C003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5615FA5024154ED00096C003 /* PhakamadS-NZ-TripsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhakamadS-NZ-TripsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5615FA5424154ED00096C003 /* PhakamadS_NZ_TripsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhakamadS_NZ_TripsUITests.swift; sourceTree = "<group>"; };
+		5615FA5624154ED00096C003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5615FA6824156BD90096C003 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		5615FA6A24156D330096C003 /* AttractionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsTableViewController.swift; sourceTree = "<group>"; };
+		5615FA6C2415CFA80096C003 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5615FA2C24154ECE0096C003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5615FA4224154ED00096C003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5615FA4D24154ED00096C003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5615FA2624154ECE0096C003 = {
+			isa = PBXGroup;
+			children = (
+				5615FA3124154ECE0096C003 /* PhakamadS-NZ-Trips */,
+				5615FA4824154ED00096C003 /* PhakamadS-NZ-TripsTests */,
+				5615FA5324154ED00096C003 /* PhakamadS-NZ-TripsUITests */,
+				5615FA3024154ECE0096C003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5615FA3024154ECE0096C003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5615FA2F24154ECE0096C003 /* PhakamadS-NZ-Trips.app */,
+				5615FA4524154ED00096C003 /* PhakamadS-NZ-TripsTests.xctest */,
+				5615FA5024154ED00096C003 /* PhakamadS-NZ-TripsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5615FA3124154ECE0096C003 /* PhakamadS-NZ-Trips */ = {
+			isa = PBXGroup;
+			children = (
+				5615FA3224154ECE0096C003 /* AppDelegate.swift */,
+				5615FA3424154ECE0096C003 /* SceneDelegate.swift */,
+				5615FA6824156BD90096C003 /* Attraction.swift */,
+				5615FA6A24156D330096C003 /* AttractionsTableViewController.swift */,
+				5615FA3624154ECE0096C003 /* InfoViewController.swift */,
+				5615FA6C2415CFA80096C003 /* ImagesViewController.swift */,
+				5615FA3824154ECE0096C003 /* Main.storyboard */,
+				5615FA3B24154ED00096C003 /* Assets.xcassets */,
+				5615FA3D24154ED00096C003 /* LaunchScreen.storyboard */,
+				5615FA4024154ED00096C003 /* Info.plist */,
+			);
+			path = "PhakamadS-NZ-Trips";
+			sourceTree = "<group>";
+		};
+		5615FA4824154ED00096C003 /* PhakamadS-NZ-TripsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5615FA4924154ED00096C003 /* PhakamadS_NZ_TripsTests.swift */,
+				5615FA4B24154ED00096C003 /* Info.plist */,
+			);
+			path = "PhakamadS-NZ-TripsTests";
+			sourceTree = "<group>";
+		};
+		5615FA5324154ED00096C003 /* PhakamadS-NZ-TripsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5615FA5424154ED00096C003 /* PhakamadS_NZ_TripsUITests.swift */,
+				5615FA5624154ED00096C003 /* Info.plist */,
+			);
+			path = "PhakamadS-NZ-TripsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5615FA2E24154ECE0096C003 /* PhakamadS-NZ-Trips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5615FA5924154ED00096C003 /* Build configuration list for PBXNativeTarget "PhakamadS-NZ-Trips" */;
+			buildPhases = (
+				5615FA2B24154ECE0096C003 /* Sources */,
+				5615FA2C24154ECE0096C003 /* Frameworks */,
+				5615FA2D24154ECE0096C003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhakamadS-NZ-Trips";
+			productName = "PhakamadS-NZ-Trips";
+			productReference = 5615FA2F24154ECE0096C003 /* PhakamadS-NZ-Trips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5615FA4424154ED00096C003 /* PhakamadS-NZ-TripsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5615FA5C24154ED00096C003 /* Build configuration list for PBXNativeTarget "PhakamadS-NZ-TripsTests" */;
+			buildPhases = (
+				5615FA4124154ED00096C003 /* Sources */,
+				5615FA4224154ED00096C003 /* Frameworks */,
+				5615FA4324154ED00096C003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5615FA4724154ED00096C003 /* PBXTargetDependency */,
+			);
+			name = "PhakamadS-NZ-TripsTests";
+			productName = "PhakamadS-NZ-TripsTests";
+			productReference = 5615FA4524154ED00096C003 /* PhakamadS-NZ-TripsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5615FA4F24154ED00096C003 /* PhakamadS-NZ-TripsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5615FA5F24154ED00096C003 /* Build configuration list for PBXNativeTarget "PhakamadS-NZ-TripsUITests" */;
+			buildPhases = (
+				5615FA4C24154ED00096C003 /* Sources */,
+				5615FA4D24154ED00096C003 /* Frameworks */,
+				5615FA4E24154ED00096C003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5615FA5224154ED00096C003 /* PBXTargetDependency */,
+			);
+			name = "PhakamadS-NZ-TripsUITests";
+			productName = "PhakamadS-NZ-TripsUITests";
+			productReference = 5615FA5024154ED00096C003 /* PhakamadS-NZ-TripsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5615FA2724154ECE0096C003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "DePaul University";
+				TargetAttributes = {
+					5615FA2E24154ECE0096C003 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5615FA4424154ED00096C003 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5615FA2E24154ECE0096C003;
+					};
+					5615FA4F24154ED00096C003 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5615FA2E24154ECE0096C003;
+					};
+				};
+			};
+			buildConfigurationList = 5615FA2A24154ECE0096C003 /* Build configuration list for PBXProject "PhakamadS-NZ-Trips" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5615FA2624154ECE0096C003;
+			productRefGroup = 5615FA3024154ECE0096C003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5615FA2E24154ECE0096C003 /* PhakamadS-NZ-Trips */,
+				5615FA4424154ED00096C003 /* PhakamadS-NZ-TripsTests */,
+				5615FA4F24154ED00096C003 /* PhakamadS-NZ-TripsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5615FA2D24154ECE0096C003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615FA3F24154ED00096C003 /* LaunchScreen.storyboard in Resources */,
+				5615FA3C24154ED00096C003 /* Assets.xcassets in Resources */,
+				5615FA3A24154ECE0096C003 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5615FA4324154ED00096C003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5615FA4E24154ED00096C003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5615FA2B24154ECE0096C003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615FA6D2415CFA80096C003 /* ImagesViewController.swift in Sources */,
+				5615FA3724154ECE0096C003 /* InfoViewController.swift in Sources */,
+				5615FA6924156BD90096C003 /* Attraction.swift in Sources */,
+				5615FA3324154ECE0096C003 /* AppDelegate.swift in Sources */,
+				5615FA6B24156D330096C003 /* AttractionsTableViewController.swift in Sources */,
+				5615FA3524154ECE0096C003 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5615FA4124154ED00096C003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615FA4A24154ED00096C003 /* PhakamadS_NZ_TripsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5615FA4C24154ED00096C003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5615FA5524154ED00096C003 /* PhakamadS_NZ_TripsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5615FA4724154ED00096C003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5615FA2E24154ECE0096C003 /* PhakamadS-NZ-Trips */;
+			targetProxy = 5615FA4624154ED00096C003 /* PBXContainerItemProxy */;
+		};
+		5615FA5224154ED00096C003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5615FA2E24154ECE0096C003 /* PhakamadS-NZ-Trips */;
+			targetProxy = 5615FA5124154ED00096C003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5615FA3824154ECE0096C003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5615FA3924154ECE0096C003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5615FA3D24154ED00096C003 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5615FA3E24154ED00096C003 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5615FA5724154ED00096C003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5615FA5824154ED00096C003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5615FA5A24154ED00096C003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-NZ-Trips/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-NZ-Trips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5615FA5B24154ED00096C003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-NZ-Trips/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-NZ-Trips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5615FA5D24154ED00096C003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-NZ-TripsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-NZ-TripsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhakamadS-NZ-Trips.app/PhakamadS-NZ-Trips";
+			};
+			name = Debug;
+		};
+		5615FA5E24154ED00096C003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-NZ-TripsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-NZ-TripsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhakamadS-NZ-Trips.app/PhakamadS-NZ-Trips";
+			};
+			name = Release;
+		};
+		5615FA6024154ED00096C003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-NZ-TripsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-NZ-TripsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhakamadS-NZ-Trips";
+			};
+			name = Debug;
+		};
+		5615FA6124154ED00096C003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-NZ-TripsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-NZ-TripsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhakamadS-NZ-Trips";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5615FA2A24154ECE0096C003 /* Build configuration list for PBXProject "PhakamadS-NZ-Trips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5615FA5724154ED00096C003 /* Debug */,
+				5615FA5824154ED00096C003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5615FA5924154ED00096C003 /* Build configuration list for PBXNativeTarget "PhakamadS-NZ-Trips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5615FA5A24154ED00096C003 /* Debug */,
+				5615FA5B24154ED00096C003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5615FA5C24154ED00096C003 /* Build configuration list for PBXNativeTarget "PhakamadS-NZ-TripsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5615FA5D24154ED00096C003 /* Debug */,
+				5615FA5E24154ED00096C003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5615FA5F24154ED00096C003 /* Build configuration list for PBXNativeTarget "PhakamadS-NZ-TripsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5615FA6024154ED00096C003 /* Debug */,
+				5615FA6124154ED00096C003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5615FA2724154ECE0096C003 /* Project object */;
+}

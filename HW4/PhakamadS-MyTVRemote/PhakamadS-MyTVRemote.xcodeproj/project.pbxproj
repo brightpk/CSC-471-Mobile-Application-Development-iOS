@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5657EA7D23EE682300E305CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657EA7C23EE682300E305CF /* AppDelegate.swift */; };
+		5657EA7F23EE682300E305CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657EA7E23EE682300E305CF /* SceneDelegate.swift */; };
+		5657EA8123EE682300E305CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657EA8023EE682300E305CF /* ViewController.swift */; };
+		5657EA8423EE682300E305CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5657EA8223EE682300E305CF /* Main.storyboard */; };
+		5657EA8623EE682500E305CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5657EA8523EE682500E305CF /* Assets.xcassets */; };
+		5657EA8923EE682500E305CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5657EA8723EE682500E305CF /* LaunchScreen.storyboard */; };
+		5657EA9423EE682500E305CF /* PhakamadS_MyTVRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657EA9323EE682500E305CF /* PhakamadS_MyTVRemoteTests.swift */; };
+		5657EA9F23EE682500E305CF /* PhakamadS_MyTVRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657EA9E23EE682500E305CF /* PhakamadS_MyTVRemoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5657EA9023EE682500E305CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657EA7123EE682300E305CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5657EA7823EE682300E305CF;
+			remoteInfo = "PhakamadS-MyTVRemote";
+		};
+		5657EA9B23EE682500E305CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657EA7123EE682300E305CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5657EA7823EE682300E305CF;
+			remoteInfo = "PhakamadS-MyTVRemote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5657EA7923EE682300E305CF /* PhakamadS-MyTVRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhakamadS-MyTVRemote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5657EA7C23EE682300E305CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5657EA7E23EE682300E305CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5657EA8023EE682300E305CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5657EA8323EE682300E305CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5657EA8523EE682500E305CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5657EA8823EE682500E305CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5657EA8A23EE682500E305CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5657EA8F23EE682500E305CF /* PhakamadS-MyTVRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhakamadS-MyTVRemoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5657EA9323EE682500E305CF /* PhakamadS_MyTVRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhakamadS_MyTVRemoteTests.swift; sourceTree = "<group>"; };
+		5657EA9523EE682500E305CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5657EA9A23EE682500E305CF /* PhakamadS-MyTVRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhakamadS-MyTVRemoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5657EA9E23EE682500E305CF /* PhakamadS_MyTVRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhakamadS_MyTVRemoteUITests.swift; sourceTree = "<group>"; };
+		5657EAA023EE682500E305CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5657EA7623EE682300E305CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5657EA8C23EE682500E305CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5657EA9723EE682500E305CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5657EA7023EE682300E305CF = {
+			isa = PBXGroup;
+			children = (
+				5657EA7B23EE682300E305CF /* PhakamadS-MyTVRemote */,
+				5657EA9223EE682500E305CF /* PhakamadS-MyTVRemoteTests */,
+				5657EA9D23EE682500E305CF /* PhakamadS-MyTVRemoteUITests */,
+				5657EA7A23EE682300E305CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5657EA7A23EE682300E305CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5657EA7923EE682300E305CF /* PhakamadS-MyTVRemote.app */,
+				5657EA8F23EE682500E305CF /* PhakamadS-MyTVRemoteTests.xctest */,
+				5657EA9A23EE682500E305CF /* PhakamadS-MyTVRemoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5657EA7B23EE682300E305CF /* PhakamadS-MyTVRemote */ = {
+			isa = PBXGroup;
+			children = (
+				5657EA7C23EE682300E305CF /* AppDelegate.swift */,
+				5657EA7E23EE682300E305CF /* SceneDelegate.swift */,
+				5657EA8023EE682300E305CF /* ViewController.swift */,
+				5657EA8223EE682300E305CF /* Main.storyboard */,
+				5657EA8523EE682500E305CF /* Assets.xcassets */,
+				5657EA8723EE682500E305CF /* LaunchScreen.storyboard */,
+				5657EA8A23EE682500E305CF /* Info.plist */,
+			);
+			path = "PhakamadS-MyTVRemote";
+			sourceTree = "<group>";
+		};
+		5657EA9223EE682500E305CF /* PhakamadS-MyTVRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				5657EA9323EE682500E305CF /* PhakamadS_MyTVRemoteTests.swift */,
+				5657EA9523EE682500E305CF /* Info.plist */,
+			);
+			path = "PhakamadS-MyTVRemoteTests";
+			sourceTree = "<group>";
+		};
+		5657EA9D23EE682500E305CF /* PhakamadS-MyTVRemoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5657EA9E23EE682500E305CF /* PhakamadS_MyTVRemoteUITests.swift */,
+				5657EAA023EE682500E305CF /* Info.plist */,
+			);
+			path = "PhakamadS-MyTVRemoteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5657EA7823EE682300E305CF /* PhakamadS-MyTVRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5657EAA323EE682500E305CF /* Build configuration list for PBXNativeTarget "PhakamadS-MyTVRemote" */;
+			buildPhases = (
+				5657EA7523EE682300E305CF /* Sources */,
+				5657EA7623EE682300E305CF /* Frameworks */,
+				5657EA7723EE682300E305CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhakamadS-MyTVRemote";
+			productName = "PhakamadS-MyTVRemote";
+			productReference = 5657EA7923EE682300E305CF /* PhakamadS-MyTVRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5657EA8E23EE682500E305CF /* PhakamadS-MyTVRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5657EAA623EE682500E305CF /* Build configuration list for PBXNativeTarget "PhakamadS-MyTVRemoteTests" */;
+			buildPhases = (
+				5657EA8B23EE682500E305CF /* Sources */,
+				5657EA8C23EE682500E305CF /* Frameworks */,
+				5657EA8D23EE682500E305CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5657EA9123EE682500E305CF /* PBXTargetDependency */,
+			);
+			name = "PhakamadS-MyTVRemoteTests";
+			productName = "PhakamadS-MyTVRemoteTests";
+			productReference = 5657EA8F23EE682500E305CF /* PhakamadS-MyTVRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5657EA9923EE682500E305CF /* PhakamadS-MyTVRemoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5657EAA923EE682500E305CF /* Build configuration list for PBXNativeTarget "PhakamadS-MyTVRemoteUITests" */;
+			buildPhases = (
+				5657EA9623EE682500E305CF /* Sources */,
+				5657EA9723EE682500E305CF /* Frameworks */,
+				5657EA9823EE682500E305CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5657EA9C23EE682500E305CF /* PBXTargetDependency */,
+			);
+			name = "PhakamadS-MyTVRemoteUITests";
+			productName = "PhakamadS-MyTVRemoteUITests";
+			productReference = 5657EA9A23EE682500E305CF /* PhakamadS-MyTVRemoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5657EA7123EE682300E305CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "DePaul University";
+				TargetAttributes = {
+					5657EA7823EE682300E305CF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5657EA8E23EE682500E305CF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5657EA7823EE682300E305CF;
+					};
+					5657EA9923EE682500E305CF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5657EA7823EE682300E305CF;
+					};
+				};
+			};
+			buildConfigurationList = 5657EA7423EE682300E305CF /* Build configuration list for PBXProject "PhakamadS-MyTVRemote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5657EA7023EE682300E305CF;
+			productRefGroup = 5657EA7A23EE682300E305CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5657EA7823EE682300E305CF /* PhakamadS-MyTVRemote */,
+				5657EA8E23EE682500E305CF /* PhakamadS-MyTVRemoteTests */,
+				5657EA9923EE682500E305CF /* PhakamadS-MyTVRemoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5657EA7723EE682300E305CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657EA8923EE682500E305CF /* LaunchScreen.storyboard in Resources */,
+				5657EA8623EE682500E305CF /* Assets.xcassets in Resources */,
+				5657EA8423EE682300E305CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5657EA8D23EE682500E305CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5657EA9823EE682500E305CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5657EA7523EE682300E305CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657EA8123EE682300E305CF /* ViewController.swift in Sources */,
+				5657EA7D23EE682300E305CF /* AppDelegate.swift in Sources */,
+				5657EA7F23EE682300E305CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5657EA8B23EE682500E305CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657EA9423EE682500E305CF /* PhakamadS_MyTVRemoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5657EA9623EE682500E305CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657EA9F23EE682500E305CF /* PhakamadS_MyTVRemoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5657EA9123EE682500E305CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5657EA7823EE682300E305CF /* PhakamadS-MyTVRemote */;
+			targetProxy = 5657EA9023EE682500E305CF /* PBXContainerItemProxy */;
+		};
+		5657EA9C23EE682500E305CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5657EA7823EE682300E305CF /* PhakamadS-MyTVRemote */;
+			targetProxy = 5657EA9B23EE682500E305CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5657EA8223EE682300E305CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5657EA8323EE682300E305CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5657EA8723EE682500E305CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5657EA8823EE682500E305CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5657EAA123EE682500E305CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5657EAA223EE682500E305CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5657EAA423EE682500E305CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MyTVRemote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MyTVRemote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5657EAA523EE682500E305CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MyTVRemote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MyTVRemote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5657EAA723EE682500E305CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MyTVRemoteTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MyTVRemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhakamadS-MyTVRemote.app/PhakamadS-MyTVRemote";
+			};
+			name = Debug;
+		};
+		5657EAA823EE682500E305CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MyTVRemoteTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MyTVRemoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhakamadS-MyTVRemote.app/PhakamadS-MyTVRemote";
+			};
+			name = Release;
+		};
+		5657EAAA23EE682500E305CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MyTVRemoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MyTVRemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhakamadS-MyTVRemote";
+			};
+			name = Debug;
+		};
+		5657EAAB23EE682500E305CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MyTVRemoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MyTVRemoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhakamadS-MyTVRemote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5657EA7423EE682300E305CF /* Build configuration list for PBXProject "PhakamadS-MyTVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5657EAA123EE682500E305CF /* Debug */,
+				5657EAA223EE682500E305CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5657EAA323EE682500E305CF /* Build configuration list for PBXNativeTarget "PhakamadS-MyTVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5657EAA423EE682500E305CF /* Debug */,
+				5657EAA523EE682500E305CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5657EAA623EE682500E305CF /* Build configuration list for PBXNativeTarget "PhakamadS-MyTVRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5657EAA723EE682500E305CF /* Debug */,
+				5657EAA823EE682500E305CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5657EAA923EE682500E305CF /* Build configuration list for PBXNativeTarget "PhakamadS-MyTVRemoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5657EAAA23EE682500E305CF /* Debug */,
+				5657EAAB23EE682500E305CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5657EA7123EE682300E305CF /* Project object */;
+}

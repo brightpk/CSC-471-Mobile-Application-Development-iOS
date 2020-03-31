@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562A9B512404A26B0057A898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A9B502404A26B0057A898 /* AppDelegate.swift */; };
+		562A9B532404A26B0057A898 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A9B522404A26B0057A898 /* SceneDelegate.swift */; };
+		562A9B552404A26B0057A898 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A9B542404A26B0057A898 /* FirstViewController.swift */; };
+		562A9B572404A26B0057A898 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A9B562404A26B0057A898 /* SecondViewController.swift */; };
+		562A9B5A2404A26B0057A898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562A9B582404A26B0057A898 /* Main.storyboard */; };
+		562A9B5C2404A26E0057A898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562A9B5B2404A26E0057A898 /* Assets.xcassets */; };
+		562A9B5F2404A26E0057A898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562A9B5D2404A26E0057A898 /* LaunchScreen.storyboard */; };
+		562A9B6A2404A26E0057A898 /* PhakamadS_MockRemote3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A9B692404A26E0057A898 /* PhakamadS_MockRemote3Tests.swift */; };
+		562A9B752404A26E0057A898 /* PhakamadS_MockRemote3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A9B742404A26E0057A898 /* PhakamadS_MockRemote3UITests.swift */; };
+		562A9B832404A32A0057A898 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A9B822404A32A0057A898 /* ConfigurationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562A9B662404A26E0057A898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562A9B452404A26B0057A898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562A9B4C2404A26B0057A898;
+			remoteInfo = "PhakamadS-MockRemote3";
+		};
+		562A9B712404A26E0057A898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562A9B452404A26B0057A898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562A9B4C2404A26B0057A898;
+			remoteInfo = "PhakamadS-MockRemote3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		562A9B4D2404A26B0057A898 /* PhakamadS-MockRemote3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhakamadS-MockRemote3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A9B502404A26B0057A898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562A9B522404A26B0057A898 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		562A9B542404A26B0057A898 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		562A9B562404A26B0057A898 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		562A9B592404A26B0057A898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562A9B5B2404A26E0057A898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562A9B5E2404A26E0057A898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		562A9B602404A26E0057A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562A9B652404A26E0057A898 /* PhakamadS-MockRemote3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhakamadS-MockRemote3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A9B692404A26E0057A898 /* PhakamadS_MockRemote3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhakamadS_MockRemote3Tests.swift; sourceTree = "<group>"; };
+		562A9B6B2404A26E0057A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562A9B702404A26E0057A898 /* PhakamadS-MockRemote3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhakamadS-MockRemote3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A9B742404A26E0057A898 /* PhakamadS_MockRemote3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhakamadS_MockRemote3UITests.swift; sourceTree = "<group>"; };
+		562A9B762404A26E0057A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562A9B822404A32A0057A898 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConfigurationViewController.swift; path = "PhakamadS-MockRemote3/ConfigurationViewController.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562A9B4A2404A26B0057A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A9B622404A26E0057A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A9B6D2404A26E0057A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562A9B442404A26B0057A898 = {
+			isa = PBXGroup;
+			children = (
+				562A9B4F2404A26B0057A898 /* PhakamadS-MockRemote3 */,
+				562A9B682404A26E0057A898 /* PhakamadS-MockRemote3Tests */,
+				562A9B732404A26E0057A898 /* PhakamadS-MockRemote3UITests */,
+				562A9B4E2404A26B0057A898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562A9B4E2404A26B0057A898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562A9B4D2404A26B0057A898 /* PhakamadS-MockRemote3.app */,
+				562A9B652404A26E0057A898 /* PhakamadS-MockRemote3Tests.xctest */,
+				562A9B702404A26E0057A898 /* PhakamadS-MockRemote3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562A9B4F2404A26B0057A898 /* PhakamadS-MockRemote3 */ = {
+			isa = PBXGroup;
+			children = (
+				562A9B502404A26B0057A898 /* AppDelegate.swift */,
+				562A9B522404A26B0057A898 /* SceneDelegate.swift */,
+				562A9B542404A26B0057A898 /* FirstViewController.swift */,
+				562A9B562404A26B0057A898 /* SecondViewController.swift */,
+				562A9B822404A32A0057A898 /* ConfigurationViewController.swift */,
+				562A9B582404A26B0057A898 /* Main.storyboard */,
+				562A9B5B2404A26E0057A898 /* Assets.xcassets */,
+				562A9B5D2404A26E0057A898 /* LaunchScreen.storyboard */,
+				562A9B602404A26E0057A898 /* Info.plist */,
+			);
+			path = "PhakamadS-MockRemote3";
+			sourceTree = "<group>";
+		};
+		562A9B682404A26E0057A898 /* PhakamadS-MockRemote3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				562A9B692404A26E0057A898 /* PhakamadS_MockRemote3Tests.swift */,
+				562A9B6B2404A26E0057A898 /* Info.plist */,
+			);
+			path = "PhakamadS-MockRemote3Tests";
+			sourceTree = "<group>";
+		};
+		562A9B732404A26E0057A898 /* PhakamadS-MockRemote3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				562A9B742404A26E0057A898 /* PhakamadS_MockRemote3UITests.swift */,
+				562A9B762404A26E0057A898 /* Info.plist */,
+			);
+			path = "PhakamadS-MockRemote3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562A9B4C2404A26B0057A898 /* PhakamadS-MockRemote3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562A9B792404A26E0057A898 /* Build configuration list for PBXNativeTarget "PhakamadS-MockRemote3" */;
+			buildPhases = (
+				562A9B492404A26B0057A898 /* Sources */,
+				562A9B4A2404A26B0057A898 /* Frameworks */,
+				562A9B4B2404A26B0057A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhakamadS-MockRemote3";
+			productName = "PhakamadS-MockRemote3";
+			productReference = 562A9B4D2404A26B0057A898 /* PhakamadS-MockRemote3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562A9B642404A26E0057A898 /* PhakamadS-MockRemote3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562A9B7C2404A26E0057A898 /* Build configuration list for PBXNativeTarget "PhakamadS-MockRemote3Tests" */;
+			buildPhases = (
+				562A9B612404A26E0057A898 /* Sources */,
+				562A9B622404A26E0057A898 /* Frameworks */,
+				562A9B632404A26E0057A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562A9B672404A26E0057A898 /* PBXTargetDependency */,
+			);
+			name = "PhakamadS-MockRemote3Tests";
+			productName = "PhakamadS-MockRemote3Tests";
+			productReference = 562A9B652404A26E0057A898 /* PhakamadS-MockRemote3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		562A9B6F2404A26E0057A898 /* PhakamadS-MockRemote3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562A9B7F2404A26E0057A898 /* Build configuration list for PBXNativeTarget "PhakamadS-MockRemote3UITests" */;
+			buildPhases = (
+				562A9B6C2404A26E0057A898 /* Sources */,
+				562A9B6D2404A26E0057A898 /* Frameworks */,
+				562A9B6E2404A26E0057A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562A9B722404A26E0057A898 /* PBXTargetDependency */,
+			);
+			name = "PhakamadS-MockRemote3UITests";
+			productName = "PhakamadS-MockRemote3UITests";
+			productReference = 562A9B702404A26E0057A898 /* PhakamadS-MockRemote3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562A9B452404A26B0057A898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "DePaul University";
+				TargetAttributes = {
+					562A9B4C2404A26B0057A898 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					562A9B642404A26E0057A898 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 562A9B4C2404A26B0057A898;
+					};
+					562A9B6F2404A26E0057A898 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 562A9B4C2404A26B0057A898;
+					};
+				};
+			};
+			buildConfigurationList = 562A9B482404A26B0057A898 /* Build configuration list for PBXProject "PhakamadS-MockRemote3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562A9B442404A26B0057A898;
+			productRefGroup = 562A9B4E2404A26B0057A898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562A9B4C2404A26B0057A898 /* PhakamadS-MockRemote3 */,
+				562A9B642404A26E0057A898 /* PhakamadS-MockRemote3Tests */,
+				562A9B6F2404A26E0057A898 /* PhakamadS-MockRemote3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562A9B4B2404A26B0057A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A9B5F2404A26E0057A898 /* LaunchScreen.storyboard in Resources */,
+				562A9B5C2404A26E0057A898 /* Assets.xcassets in Resources */,
+				562A9B5A2404A26B0057A898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A9B632404A26E0057A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A9B6E2404A26E0057A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562A9B492404A26B0057A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A9B572404A26B0057A898 /* SecondViewController.swift in Sources */,
+				562A9B552404A26B0057A898 /* FirstViewController.swift in Sources */,
+				562A9B512404A26B0057A898 /* AppDelegate.swift in Sources */,
+				562A9B832404A32A0057A898 /* ConfigurationViewController.swift in Sources */,
+				562A9B532404A26B0057A898 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A9B612404A26E0057A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A9B6A2404A26E0057A898 /* PhakamadS_MockRemote3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A9B6C2404A26E0057A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A9B752404A26E0057A898 /* PhakamadS_MockRemote3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562A9B672404A26E0057A898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562A9B4C2404A26B0057A898 /* PhakamadS-MockRemote3 */;
+			targetProxy = 562A9B662404A26E0057A898 /* PBXContainerItemProxy */;
+		};
+		562A9B722404A26E0057A898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562A9B4C2404A26B0057A898 /* PhakamadS-MockRemote3 */;
+			targetProxy = 562A9B712404A26E0057A898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		562A9B582404A26B0057A898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562A9B592404A26B0057A898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		562A9B5D2404A26E0057A898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562A9B5E2404A26E0057A898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562A9B772404A26E0057A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		562A9B782404A26E0057A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562A9B7A2404A26E0057A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MockRemote3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MockRemote3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		562A9B7B2404A26E0057A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MockRemote3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MockRemote3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		562A9B7D2404A26E0057A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MockRemote3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MockRemote3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhakamadS-MockRemote3.app/PhakamadS-MockRemote3";
+			};
+			name = Debug;
+		};
+		562A9B7E2404A26E0057A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MockRemote3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MockRemote3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhakamadS-MockRemote3.app/PhakamadS-MockRemote3";
+			};
+			name = Release;
+		};
+		562A9B802404A26E0057A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MockRemote3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MockRemote3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhakamadS-MockRemote3";
+			};
+			name = Debug;
+		};
+		562A9B812404A26E0057A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4788UWPF3;
+				INFOPLIST_FILE = "PhakamadS-MockRemote3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.PhakamadS-MockRemote3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhakamadS-MockRemote3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562A9B482404A26B0057A898 /* Build configuration list for PBXProject "PhakamadS-MockRemote3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562A9B772404A26E0057A898 /* Debug */,
+				562A9B782404A26E0057A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562A9B792404A26E0057A898 /* Build configuration list for PBXNativeTarget "PhakamadS-MockRemote3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562A9B7A2404A26E0057A898 /* Debug */,
+				562A9B7B2404A26E0057A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562A9B7C2404A26E0057A898 /* Build configuration list for PBXNativeTarget "PhakamadS-MockRemote3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562A9B7D2404A26E0057A898 /* Debug */,
+				562A9B7E2404A26E0057A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562A9B7F2404A26E0057A898 /* Build configuration list for PBXNativeTarget "PhakamadS-MockRemote3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562A9B802404A26E0057A898 /* Debug */,
+				562A9B812404A26E0057A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562A9B452404A26B0057A898 /* Project object */;
+}
